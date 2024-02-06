@@ -32,8 +32,8 @@ export function SignInPage(): JSX.Element {
       login={searchParams.get('login') || undefined}
       projectId={searchParams.get('project') || undefined}
     >
-      <Logo size={32} />
-      <Title>Sign in to Medplum</Title>
+       <Logo size={80} />
+      <Title>Sign in to Itera</Title>
       {searchParams.get('project') === 'new' && <div>Sign in again to create a new project</div>}
     </SignInForm>
   );
